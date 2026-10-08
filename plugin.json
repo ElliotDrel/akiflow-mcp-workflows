@@ -1,9 +1,26 @@
 {
   "$schema": "https://agent-plugins.org/schemas/1.0.0/plugin.schema.json",
   "name": "akiflow-mcp-workflows",
-  "version": "0.1.0",
+  "version": "0.2.0",
   "description": "Workflow guidance for Akiflow's official remote MCP server.",
   "homepage": "https://akiflow.com/mcp",
+  "extensions": {
+    "com.openai": {
+      "interface": {
+        "displayName": "Akiflow Workflows",
+        "shortDescription": "Plan tasks and schedules with Akiflow.",
+        "longDescription": "Community-maintained workflow guidance connected to Akiflow's official remote MCP service. Review your schedule, manage tasks, and make approved calendar changes using your own Akiflow account.",
+        "developerName": "Elliot Drel (community maintainer)",
+        "category": "Productivity",
+        "capabilities": ["Read", "Write"],
+        "websiteURL": "https://github.com/ElliotDrel/akiflow-mcp-workflows",
+        "defaultPrompt": [
+          "Review my Akiflow schedule for today without making changes.",
+          "Help me plan tomorrow using my existing Akiflow tasks."
+        ]
+      }
+    }
+  },
   "keywords": [
     "akiflow",
     "productivity",

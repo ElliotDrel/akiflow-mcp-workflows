@@ -1,0 +1,20 @@
+{
+  "name": "akiflow-community",
+  "interface": {
+    "displayName": "Akiflow Community Plugins"
+  },
+  "plugins": [
+    {
+      "name": "akiflow-mcp-workflows",
+      "source": {
+        "source": "local",
+        "path": "./"
+      },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
+      },
+      "category": "Productivity"
+    }
+  ]
+}
