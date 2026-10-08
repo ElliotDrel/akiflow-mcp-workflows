@@ -4,14 +4,14 @@
 
 - Publish the existing `https://mcp.akiflow.com/mcp` endpoint as a remote MCP connector in the Claude Connectors Directory.
 - Submit the same endpoint as an MCP-backed plugin through the OpenAI plugin portal for the shared ChatGPT and Codex directory.
-- Publish the included Claude plugin as a complementary workflow package for Claude Code and Cowork.
+- Publish the included Claude plugin as a complementary workflow package for Claude web chat, Desktop, Claude Code and Cowork.
 - Keep one MCP server and one set of tool schemas. Do not fork server logic by provider.
 
 ## Current position
 
 - Akiflow already documents an official MCP server for Claude, ChatGPT, Cursor, Windsurf, and other MCP clients.
 - Akiflow already uses an OAuth-protected, stable HTTPS endpoint.
-- Akiflow is absent from the discovery surfaces in the supplied screenshots because an endpoint that users add manually is different from an approved directory listing.
+- Distinguish manual installation from an approved directory listing; the screenshots alone do not establish Akiflow's directory status or explain it.
 - A GitHub repository helps with public source, versioned skills, tests, and Claude plugin publication. It does not replace either vendor's connector-review submission.
 
 ## OpenAI: ChatGPT and Codex
@@ -39,7 +39,7 @@
 - Publish this public repository through the [Claude plugin submission flow](https://platform.claude.com/plugins/submit) after reviewing final branding and legal files.
 - Run `claude plugin validate` in the repository before submission.
 - Keep `.claude-plugin/plugin.json`, `.mcp.json`, and `skills/` at the plugin root exactly as structured here.
-- Treat this as supplementary to the connector listing. The connector creates broad product discovery and the plugin adds reusable workflow guidance for Claude Code and Cowork.
+- Treat this as supplementary to the connector listing; the plugin adds reusable workflow guidance across Claude clients. See the [current plugin installation guide](https://support.claude.com/en/articles/13837440-use-plugins-in-claude).
 
 ## What Akiflow alone must do
 

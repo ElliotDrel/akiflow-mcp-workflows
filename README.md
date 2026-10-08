@@ -4,6 +4,12 @@ This package gives Akiflow a small, source-controlled starting point for publish
 
 This is a community-maintained plugin, not an official Akiflow release. It uses Akiflow's official server; it does not implement or host that server. Installing this GitHub package does not mean it has been approved for a public platform directory.
 
+## Upload in ChatGPT or Claude
+
+- Download the [ChatGPT/Codex archive](dist/akiflow-workflows-openai-0.2.1.zip) or [Claude archive](dist/akiflow-workflows-claude-0.2.1.zip).
+- Follow the [web upload and custom connector instructions](docs/INSTALL.md).
+- Rebuild and verify both packages with `python scripts/package.py`.
+
 ## Install in Codex
 
 Add this repository as a plugin marketplace, then install the package:
