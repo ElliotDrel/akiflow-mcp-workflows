@@ -21,6 +21,15 @@ Use the Akiflow MCP server for live task, schedule, time-slot, calendar, and Mee
 - Use the returned item ID when following up on a specific task, event, or time slot.
 - Report what changed and any remaining ambiguity after a write operation.
 
+## Learn user preferences and editing practices
+
+- When the user asks to remember a preference or corrects a recurring workflow, update the user-controlled local copy of this skill or its approved private preference store with a concise, reusable rule. Keep personal preferences out of the public plugin repository and distributed archives.
+- Capture explicit defaults for task wording, projects, tags, priorities, durations, scheduling, time zones, and confirmation boundaries; distinguish standing preferences from one-off instructions and ask only when that distinction would materially change future edits.
+- Record task-editing best practices only after they are demonstrated by successful operations or verified against the available tool contract. Preserve existing preferences, replace superseded rules, and briefly tell the user what was saved and where.
+- Read saved preferences before editing tasks and use approved defaults to avoid repeated questions. Current user instructions take precedence; preferences never authorize deletion, guest notifications, or other consequential actions on their own.
+- Read the current task, change only requested fields, preserve unrelated values, and verify the resulting state after edits. Reuse verified item IDs instead of creating duplicate tasks.
+- If the installed skill is read-only or changes cannot persist, use an available user-approved private store; otherwise explain the limitation and provide the proposed rule without claiming it was saved. Do not modify unrelated memory or configuration.
+
 ## Handle calendar actions carefully
 
 - Read an event before editing or cancelling it.

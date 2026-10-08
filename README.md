@@ -6,7 +6,7 @@ This is a community-maintained plugin, not an official Akiflow release. It uses 
 
 ## Upload in ChatGPT or Claude
 
-- Download the [ChatGPT/Codex archive](dist/akiflow-workflows-openai-0.2.1.zip) or [Claude archive](dist/akiflow-workflows-claude-0.2.1.zip).
+- Download the [ChatGPT/Codex archive](dist/akiflow-workflows-openai-0.2.2.zip) or [Claude archive](dist/akiflow-workflows-claude-0.2.2.zip).
 - Follow the [web upload and custom connector instructions](docs/INSTALL.md).
 - Rebuild and verify both packages with `python scripts/package.py`.
 

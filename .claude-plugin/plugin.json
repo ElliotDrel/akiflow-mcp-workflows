@@ -1,6 +1,6 @@
 {
   "$schema": "https://json.schemastore.org/claude-code-plugin-manifest.json",
   "name": "akiflow-mcp-workflows",
-  "version": "0.2.1",
+  "version": "0.2.2",
   "description": "Use Akiflow's official MCP server to plan work and manage tasks, time slots, and calendar events."
 }

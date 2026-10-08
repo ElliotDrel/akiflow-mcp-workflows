@@ -2,7 +2,7 @@
 
 ## ChatGPT and Codex archive
 
-- Download `dist/akiflow-workflows-openai-0.2.1.zip` from this repository.
+- Download `dist/akiflow-workflows-openai-0.2.2.zip` from this repository.
 - Open [ChatGPT Plugins](https://chatgpt.com/plugins), choose **Add → Upload plugin archive**, and select the ZIP.
 - Follow the client's prompts to authorize Akiflow through its sign-in page.
 - Use the same archive wherever Codex offers plugin archive import; alternatively use the README's GitHub marketplace commands.
@@ -12,7 +12,7 @@
 
 ## Claude plugin
 
-- Download `dist/akiflow-workflows-claude-0.2.1.zip` from this repository.
+- Download `dist/akiflow-workflows-claude-0.2.2.zip` from this repository.
 - Open [Claude Plugins — Yours](https://claude.ai/new#customize/plugins/yours) and choose the custom plugin upload option under **Add**.
 - Complete any connector authorization prompted by the imported package.
 - Test using the read-only schedule prompt above.
